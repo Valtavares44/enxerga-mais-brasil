@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enxerga Mais Brasil - Conscientização e Inclusão</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Barra de Acessibilidade -->
+    <div class="top-bar-accessibility" role="region" aria-label="Ferramentas de acessibilidade">
+        <div class="container bar-content">
+            <span>Acessibilidade:</span>
+            <button id="btn-contrast" title="Alternar Alto Contraste" aria-label="Alternar Alto Contraste">
+                <i class="fa-solid fa-circle-half-stroke"></i> Alto Contraste
+            </button>
+            <button id="btn-font-increase" title="Aumentar Fonte" aria-label="Aumentar Tamanho da Fonte">A+</button>
+            <button id="btn-font-decrease" title="Diminuir Fonte" aria-label="Diminuir Tamanho da Fonte">A-</button>
+        </div>
+    </div>
+
+    <!-- Cabeçalho / Navbar -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-eye"></i>
+                <span>Enxerga Mais Brasil</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#cordoes">Cordões de Identificação</a></li>
+                    <li><a href="#acao">Ação Regional</a></li>
+                    <li><a href="#resultados">Resultados</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Inicial (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>Informação Gera Empatia e Respeito</h1>
+            <p>
+                Muitas pessoas com deficiência ainda enfrentam constrangimentos diários por falta de informação da
+                sociedade.
+                A tecnologia e o conhecimento podem quebrar esse ciclo de sofrimento.
+            </p>
+            <a href="#cordoes" class="btn-primary">Conheça os Cordões</a>
+        </div>
+    </section>
+
+    <!-- Seção Cordões de Identificação -->
+    <section id="cordoes" class="section">
+        <div class="container">
+            <h2 class="section-title">Cordões de Identificação: Não São Acessórios</h2>
+            <p class="section-subtitle">
+                Entenda o significado dos principais cordões utilizados no Brasil para assegurar atendimento prioritário
+                e dignidade.
+            </p>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <div class="card-icon sunflower">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+                    <h3>Cordão de Girassol</h3>
+                    <p class="badge">Lei Federal nº 14.624/2023</p>
+                    <p>
+                        Identifica <strong>deficiências ocultas ou não visíveis</strong>, tais como autismo, TDAH,
+                        demência, Doença de Crohn, deficiência auditiva, fobias e dores crônicas.
+                    </p>
+                    <p class="card-note">
+                        <strong>Como agir:</strong> Seja paciente, ofereça suporte se solicitado e respeite os direitos
+                        de atendimento prioritário.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon puzzle">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Cordão Quebra-Cabeça</h3>
+                    <p class="badge">Símbolo do Espectro Autista</p>
+                    <p>
+                        Identifica pessoas diagnosticadas com <strong>Transtorno do Espectro Autista (TEA)</strong>. O
+                        padrão colorido representa a diversidade e complexidade do espectro.
+                    </p>
+                    <p class="card-note">
+                        <strong>Como agir:</strong> Evite sobrecarga sensorial (sons altos, toques inesperados) e
+                        comunique-se de maneira clara e empática.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon ribbon">
+                        <i class="fa-solid fa-ribbon"></i>
+                    </div>
+                    <h3>Fitas e Outras Condições</h3>
+                    <p class="badge">Conscientização Contínua</p>
+                    <p>
+                        Outros cordões identificam condições raras, fibromialgia ou doenças autoimunes. Seu uso busca
+                        evitar situações de constrangimento em locais públicos e transportes.
+                    </p>
+                    <p class="card-note">
+                        <strong>Como agir:</strong> Nunca questione agressivamente a necessidade de um assento ou fila
+                        preferencial de quem porta a identificação.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Ação Regional -->
+    <section id="acao" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Ação de Extensão Curricular</h2>
+            <p class="section-subtitle">
+                Pesquisa empírica e conscientização desenvolvidas com transeuntes e moradores da Baixada Santista.
+            </p>
+
+            <div class="cities-grid">
+                <div class="city-pill"><i class="fa-solid fa-location-dot"></i> Bertioga</div>
+                <div class="city-pill"><i class="fa-solid fa-location-dot"></i> Santos</div>
+                <div class="city-pill"><i class="fa-solid fa-location-dot"></i> Praia Grande</div>
+                <div class="city-pill"><i class="fa-solid fa-location-dot"></i> Cubatão</div>
+            </div>
+
+            <div class="methodology-box">
+                <h3><i class="fa-solid fa-clipboard-question"></i> Metodologia das Entrevistas</h3>
+                <p>
+                    Foram realizadas entrevistas curtas com o público geral e pessoas com deficiência, buscando
+                    compreender o nível de conhecimento prévio da população sobre as identificações e coletar
+                    experiências vividas nas cidades da região.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Resultados / Depoimentos -->
+    <section id="resultados" class="section">
+        <div class="container">
+            <h2 class="section-title">Diagnóstico e Impacto</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h4>Desconhecimento</h4>
+                    <p>Grande parte da população ainda desconhece a função legal do cordão de girassol e o encara como
+                        adorno estético.</p>
+                </div>
+                <div class="metric-card">
+                    <h4>Constrangimentos</h4>
+                    <p>Relatos frequentes de olhares reprovadores e questionamentos indevidos ao utilizar filas ou
+                        assentos reservados.</p>
+                </div>
+                <div class="metric-card">
+                    <h4>O Papel da Tecnologia</h4>
+                    <p>Plataformas digitais acessíveis tornam o conteúdo visualmente atrativo e ajudam a disseminar a
+                        empatia em massa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção da Equipe -->
+    <section id="equipe" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Equipe do Projeto</h2>
+            <p class="section-subtitle">Estudantes da área de Tecnologia da Informação (TI) dedicados à extensão
+                universitária.</p>
+
+            <ul class="team-list">
+                <li>Ari Cristina Monteiro (RA: 267469)</li>
+                <li>Arthur Santos Lima (RA: 272207)</li>
+                <li>Gustavo Andrade Da Silva (RA: 266056)</li>
+                <li>Marcus Vinicius Alves Paulo (RA: 268647)</li>
+                <li>Murilo Souza Jesus de Mendonça (RA: 267455)</li>
+                <li>Natália da Silva Lima (RA: 269820)</li>
+                <li>Valmir Tavares dos Santos (RA: 271528)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container footer-content">
+            <p><strong>Enxerga Mais Brasil</strong> - Projeto de Extensão Curricular em TI</p>
+            <p>Desenvolvido para promoção da empatia, cidadania e direitos das Pessoas com Deficiência (PCD).</p>
+            <p class="copy">&copy; 2024-2026. Todos os direitos acadêmicos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Widget VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
